@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博寶</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header_nav">
+            <ul>
+                <li>
+                    <a href="./index.html" class="active">
+                        回首頁
+                    </a>
+                </li>
+                <li>
+                    <a href="./news.html">
+                        最新消息
+                    </a>
+                </li>
+                <li>
+                    <a href="./buy.html">
+                        儲值方案
+                    </a>
+                </li>
+                <li>
+                    <a href="./flow.html">
+                        儲值說明
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        客服資訊
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="header_member">
+            <ul>
+                <li><a data-bs-toggle="modal" data-bs-target="#modal-login">登入</a></li>
+                <li><a data-bs-toggle="modal" data-bs-target="#modal-signup">註冊</a></li>
+            </ul>
+        </nav>
+        <div class="header_menu d-lg-none">
+            <div class="header_menu_bar bar-top"></div>
+            <div class="header_menu_bar bar-middle"></div>
+            <div class="header_menu_bar bar-bottom"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner-member">
+            <h1>會員服務同意書條款</h1>
+            <img class="banner-member_mask" src="./public/img/member-mask.png" alt="">
+        </div>
+
+        <div class="mainbar">
+            <div class="mainbar_sec detail term">
+                <button class="btn-back">
+                    <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 6.00012H0.5" stroke="#4DB5BB" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.35711 10.7223L0.634888 6.00005L5.35711 1.27783" stroke="#4DB5BB" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>回<br>上<br>頁</p>
+                </button>
+                <div class="detail_content">
+                    <p>
+                        博寶運動分析網所提供的資訊服務所有權和運作權歸本網站所有，並有權隨時修改服務內容或停止服務。<br>
+                        (一) 本網站擁有資訊服務的所有權和運作權，並可隨時調整或終止服務。<br>
+                        (二) 註冊後，您將成為本網站博寶運動分析網的會員，加入會員並使用本網站服務即表示您同意遵守本公司的會員規範及所有注意事項，並承諾遵循相關規定。<br>
+                        (三) 會員需確保在使用本網站博寶運動分析網前所填寫的資料是真實的；若個人資料有變更，應立即更新，不能以資料不符為理由否認在本服務中的行為效力。<br>
+                        (四) 會員購買場次．點數．天數的消費行為一旦完成，無論任何理由均不得否認或拒絕，所有交易均以本公司的交易紀錄為準，若有爭議，將以交易紀錄為依據，且不提供恢復原狀或退款等服務。<br>
+                        (五) 未滿18歲者不得購買或兌領彩券，請勿過度投注，本網站僅提供資訊，請勿參與非法賭博活動，若觸犯法律或刑事訴訟、與本站無任何關係。<br>
+                        (六) 不得利用本網站發佈、傳輸或發送任何誹謗、詐騙、傷害、猥褻、色情、賭博等違法或侵害他人智慧財產權的資料。<br>
+                        (七) 本網站博寶運動分析網將保護每位會員的隱私，包括帳號申請和個人資料，除非涉及違法、侵權或違反使用條款，或經本公司同意，否則不會將個人資料提供給非本公司關係企業的第三方。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            網站內容屬資訊性質，提供資料僅供瀏覽者作參考用途，切勿參與賭博觸犯法例，請勿以身試法。<br>
+            本站提供您的內容請勿任意轉載或複製。提醒您：進入本站、參與運動彩劵者需年滿20歲，未滿者不得加入行使任何會員之權利
+        </p>
+    </footer>
+
+    <div class="modal fade modal-member" id="modal-login" tabindex="-1" aria-labelledby="modal-loginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="modal-member_x" data-bs-dismiss="modal" src="./public/img/x.svg" alt="">
+                    <h2 class="modal-member_title">會員登入</h2>
+                    <div>
+                        <div class="modal-member_input">
+                            <label for="">帳號</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input">
+                            <label for="">密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                    </div>
+                    <button class="btn-common">登入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-member" id="modal-signup" tabindex="-1" aria-labelledby="modal-signupLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="modal-member_x" data-bs-dismiss="modal" src="./public/img/x.svg" alt="">
+                    <h2 class="modal-member_title">會員註冊</h2>
+                    <div>
+                        <p class="modal-member_intro">請先閱讀本站相關規定與條約同意後方可完成註冊會員</p>
+                        <div class="modal-member_input lg">
+                            <label for="">帳號</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">確認密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">暱稱</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">電子信箱</label>
+                            <input type="email" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">Line</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">聯絡手機</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-2 modal-member_checkbox">
+                            <input type="checkbox">
+                            <label for="">已閱讀 <a href="./term.html" target="_blank">相關條款</a> 同意註冊</label>
+                        </div>
+                        <button class="btn-common m-0">註冊</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+</body>
+</html>

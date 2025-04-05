@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博寶</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header_nav">
+            <ul>
+                <li>
+                    <a href="./index.html" class="active">
+                        回首頁
+                    </a>
+                </li>
+                <li>
+                    <a href="./news.html">
+                        最新消息
+                    </a>
+                </li>
+                <li>
+                    <a href="./buy.html">
+                        儲值方案
+                    </a>
+                </li>
+                <li>
+                    <a href="./flow.html">
+                        儲值說明
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        客服資訊
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="header_member">
+            <ul>
+                <li><a data-bs-toggle="modal" data-bs-target="#modal-login">登入</a></li>
+                <li><a data-bs-toggle="modal" data-bs-target="#modal-signup">註冊</a></li>
+            </ul>
+        </nav>
+        <div class="header_menu d-lg-none">
+            <div class="header_menu_bar bar-top"></div>
+            <div class="header_menu_bar bar-middle"></div>
+            <div class="header_menu_bar bar-bottom"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner banner-inner">
+            <img class="banner_mask" src="./public/img/banner-mask.png" alt="">
+            <div class="banner-inner_main">
+                <img src="./public/img/banner-inner.png" alt="">
+            </div>
+            <div class="banner_side">
+                <div class="banner_contact">
+                    <img class="banner_contact_pic" src="./public/img/line.png" alt="">
+                    <div class="banner_contact_text">
+                        <h3>Line線上客服</h3>
+                        <p>bobao5618</p>
+                    </div>
+                </div>
+                <div class="banner_contact">
+                    <img class="banner_contact_pic" src="./public/img/wechat.png" alt="">
+                    <div class="banner_contact_text">
+                        <h3>微信線上客服</h3>
+                        <p>bobao5618</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainbar">
+            <div class="mainbar_sec news">
+                <div class="news_title">
+                    <h2>體壇新聞</h2>
+                </div>
+                <div class="news_content">
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="./news-detail.html" class="news_item">
+                        <div class="news_text">
+                            <div class="news_date">
+                                <p class="day">27</p>
+                                <p class="month">2024/11</p>
+                            </div>
+                            <h3>【博寶運動分析網】12強賽-球迷敲碗「有機會看到冠軍獎盃嗎」 蔡其昌曝：會巡迴展出</h3>
+                        </div>
+                        <div class="news_arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.0001H19" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5.00006L19 12.0001L12 19.0001" stroke="white" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <ul class="pagination">
+                <li class="pagination_arrow-prev">
+                    <a href="" class="pagination_arrow">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.5 6.00012H0.5" stroke="#4DB5BB" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.35711 10.7223L0.634888 6.00005L5.35711 1.27783" stroke="#4DB5BB" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="" class="active"><span>1</span></a></li>
+                <li><a href=""><span>2</span></a></li>
+                <li><a href=""><span>3</span></a></li>
+                <li><a href=""><span>4</span></a></li>
+                <li><a href=""><span>5</span></a></li>
+                <li class="pagination_arrow-next">
+                    <a href="" class="pagination_arrow">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 6.00012H17.5" stroke="#4DB5BB" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12.6429 10.7223L17.3651 6.00005L12.6429 1.27783" stroke="#4DB5BB" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            網站內容屬資訊性質，提供資料僅供瀏覽者作參考用途，切勿參與賭博觸犯法例，請勿以身試法。<br>
+            本站提供您的內容請勿任意轉載或複製。提醒您：進入本站、參與運動彩劵者需年滿20歲，未滿者不得加入行使任何會員之權利
+        </p>
+    </footer>
+
+    <div class="modal fade modal-member" id="modal-login" tabindex="-1" aria-labelledby="modal-loginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="modal-member_x" data-bs-dismiss="modal" src="./public/img/x.svg" alt="">
+                    <h2 class="modal-member_title">會員登入</h2>
+                    <div>
+                        <div class="modal-member_input">
+                            <label for="">帳號</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input">
+                            <label for="">密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                    </div>
+                    <button class="btn-common">登入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-member" id="modal-signup" tabindex="-1" aria-labelledby="modal-signupLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="modal-member_x" data-bs-dismiss="modal" src="./public/img/x.svg" alt="">
+                    <h2 class="modal-member_title">會員註冊</h2>
+                    <div>
+                        <p class="modal-member_intro">請先閱讀本站相關規定與條約同意後方可完成註冊會員</p>
+                        <div class="modal-member_input lg">
+                            <label for="">帳號</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">確認密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">暱稱</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">電子信箱</label>
+                            <input type="email" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">Line</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">聯絡手機</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-2 modal-member_checkbox">
+                            <input type="checkbox">
+                            <label for="">已閱讀 <a href="./term.html" target="_blank">相關條款</a> 同意註冊</label>
+                        </div>
+                        <button class="btn-common m-0">註冊</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+</body>
+</html>

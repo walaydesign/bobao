@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博寶</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header_nav">
+            <ul>
+                <li>
+                    <a href="./index.html" class="active">
+                        回首頁
+                    </a>
+                </li>
+                <li>
+                    <a href="./news.html">
+                        最新消息
+                    </a>
+                </li>
+                <li>
+                    <a href="./buy.html">
+                        儲值方案
+                    </a>
+                </li>
+                <li>
+                    <a href="./flow.html">
+                        儲值說明
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        客服資訊
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="header_member login">
+            <button>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C9.23857 2 7 4.23858 7 7C7 9.76142 9.23857 12 12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99992 13C7.33717 13 5.73815 13.7585 4.80107 14.9004C4.32547 15.48 3.99113 16.1971 3.96202 16.9919C3.93229 17.8036 4.22528 18.5958 4.8295 19.2871C6.30206 20.9716 8.65319 22 11.9999 22C15.3466 22 17.6978 20.9716 19.1703 19.2871C19.7746 18.5958 20.0675 17.8036 20.0378 16.9919C20.0087 16.1971 19.6744 15.48 19.1988 14.9004C18.2617 13.7585 16.6627 13 14.9999 13H8.99992Z" fill="white"/>
+                </svg>
+                <ul>
+                    <li><a href="./record.html">點數/訂單查詢</a></li>
+                    <li><a href="">登出</a></li>
+                </ul>
+            </button>
+            <p class="header_member_name">大支您好！</p>
+        </nav>
+        <div class="header_menu d-lg-none">
+            <div class="header_menu_bar bar-top"></div>
+            <div class="header_menu_bar bar-middle"></div>
+            <div class="header_menu_bar bar-bottom"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner banner-inner">
+            <img class="banner_mask" src="./public/img/banner-mask.png" alt="">
+            <div class="banner-inner_main">
+                <img src="./public/img/banner-inner.png" alt="">
+            </div>
+            <div class="banner_side">
+                <div class="banner_contact">
+                    <img class="banner_contact_pic" src="./public/img/line.png" alt="">
+                    <div class="banner_contact_text">
+                        <h3>Line線上客服</h3>
+                        <p>bobao5618</p>
+                    </div>
+                </div>
+                <div class="banner_contact">
+                    <img class="banner_contact_pic" src="./public/img/wechat.png" alt="">
+                    <div class="banner_contact_text">
+                        <h3>微信線上客服</h3>
+                        <p>bobao5618</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainbar">
+            <div class="mainbar_sec">
+                <div class="buy">
+                    <div class="buy_item">
+                        <div class="buy_pic">
+                            <img src="./public/img/diamond-color.png" alt="">
+                            <h3>鑽石協議</h3>
+                        </div>
+                        <div class="buy_text">
+                            <div class="buy_title">
+                                <h2>百發百中</h2>
+                                <p>
+                                    港澳嚴選內線來料 【王牌再現 決勝只要一注】
+                                </p>
+                            </div>
+                            <select name="" id="">
+                                <option value="">$5000 / 1場</option>
+                                <option value="">$12800 / 3場</option>
+                                <option value="">$26800 / 7場</option>
+                            </select>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center buy_pay">
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="daimond-711" name="daimond-pay">
+                                        <label for="daimond-711">7-11繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="daimond-family" name="daimond-pay">
+                                        <label for="daimond-family">全家繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="daimond-atm" name="daimond-pay">
+                                        <label for="daimond-atm">ATM匯款</label>
+                                    </div>
+                                </div>
+                                <button class="btn-common ms-auto">購買</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy_item">
+                        <div class="buy_pic">
+                            <img src="./public/img/gold-color.png" alt="">
+                            <h3>金牌連線</h3>
+                        </div>
+                        <div class="buy_text">
+                            <div class="buy_title">
+                                <h2>一箭雙鵰</h2>
+                                <p>
+                                    獨家猛料均注獲利 【勝率80%↑】
+                                </p>
+                            </div>
+                            <select name="" id="">
+                                <option value="">$4000 / 1場</option>
+                                <option value="">$10000 / 3場</option>
+                                <option value="">$19800 / 7場</option>
+                            </select>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center buy_pay">
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="gold-711" name="gold-pay">
+                                        <label for="gold-711">7-11繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="gold-family" name="gold-pay">
+                                        <label for="gold-family">全家繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="gold-atm" name="gold-pay">
+                                        <label for="gold-atm">ATM匯款</label>
+                                    </div>
+                                </div>
+                                <button class="btn-common ms-auto">購買</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy_item">
+                        <div class="buy_pic">
+                            <img src="./public/img/bronze-color.png" alt="">
+                            <h3>銅牌大小分</h3>
+                        </div>
+                        <div class="buy_text">
+                            <div class="buy_title">
+                                <h2>大小分通殺</h2>
+                                <p>
+                                    精準預測一發必勝 【唯有贏才是王道】
+                                </p>
+                            </div>
+                            <select name="" id="">
+                                <option value="">$2000 / 1場</option>
+                                <option value="">$5000 / 3場</option>
+                                <option value="">$9800 / 7場</option>
+                            </select>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center buy_pay">
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="bronze-711" name="bronze-pay">
+                                        <label for="bronze-711">7-11繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="bronze-family" name="bronze-pay">
+                                        <label for="bronze-family">全家繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="bronze-atm" name="bronze-pay">
+                                        <label for="bronze-atm">ATM匯款</label>
+                                    </div>
+                                </div>
+                                <button class="btn-common ms-auto">購買</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy_item">
+                        <div class="buy_pic">
+                            <img src="./public/img/silver-color.png" alt="">
+                            <h3>銀牌救紅</h3>
+                        </div>
+                        <div class="buy_text">
+                            <div class="buy_title">
+                                <h2>救紅連線</h2>
+                                <p>
+                                    專業操刀強勢過盤【先救紅再翻綠】
+                                </p>
+                            </div>
+                            <select name="" id="">
+                                <option value="">$2500 / 1場</option>
+                                <option value="">$6600 / 3場</option>
+                                <option value="">$14000 / 7場</option>
+                            </select>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center buy_pay">
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="silver-711" name="silver-pay">
+                                        <label for="silver-711">7-11繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="silver-family" name="silver-pay">
+                                        <label for="silver-family">全家繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="silver-atm" name="silver-pay">
+                                        <label for="silver-atm">ATM匯款</label>
+                                    </div>
+                                </div>
+                                <button class="btn-common ms-auto">購買</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy_item">
+                        <div class="buy_pic">
+                            <img src="./public/img/select-color.png" alt="">
+                            <h3>亞洲精選</h3>
+                        </div>
+                        <div class="buy_text">
+                            <div class="buy_title">
+                                <h2>亞洲稱霸</h2>
+                                <p>
+                                    台.日.韓.精選賽事 【致勝關鍵 信心首選】
+                                </p>
+                            </div>
+                            <select name="" id="">
+                                <option value="">$4800 / 1場</option>
+                                <option value="">$10800 / 3場</option>
+                                <option value="">$15800 / 7場</option>
+                            </select>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center buy_pay">
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="select-711" name="select-pay">
+                                        <label for="select-711">7-11繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="select-family" name="select-pay">
+                                        <label for="select-family">全家繳費</label>
+                                    </div>
+                                    <div class="d-flex align-items-center buy_pay_item">
+                                        <input type="radio" id="select-atm" name="select-pay">
+                                        <label for="select-atm">ATM匯款</label>
+                                    </div>
+                                </div>
+                                <button class="btn-common ms-auto">購買</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer class="footer">
+        <p>
+            網站內容屬資訊性質，提供資料僅供瀏覽者作參考用途，切勿參與賭博觸犯法例，請勿以身試法。<br>
+            本站提供您的內容請勿任意轉載或複製。提醒您：進入本站、參與運動彩劵者需年滿20歲，未滿者不得加入行使任何會員之權利
+        </p>
+    </footer>
+
+    <div class="modal fade modal-member" id="modal-login" tabindex="-1" aria-labelledby="modal-loginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="modal-member_x" data-bs-dismiss="modal" src="./public/img/x.svg" alt="">
+                    <h2 class="modal-member_title">會員登入</h2>
+                    <div>
+                        <div class="modal-member_input">
+                            <label for="">帳號</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input">
+                            <label for="">密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                    </div>
+                    <button class="btn-common">登入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-member" id="modal-signup" tabindex="-1" aria-labelledby="modal-signupLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="modal-member_x" data-bs-dismiss="modal" src="./public/img/x.svg" alt="">
+                    <h2 class="modal-member_title">會員註冊</h2>
+                    <div>
+                        <p class="modal-member_intro">請先閱讀本站相關規定與條約同意後方可完成註冊會員</p>
+                        <div class="modal-member_input lg">
+                            <label for="">帳號</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">確認密碼</label>
+                            <input type="password" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">暱稱</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">電子信箱</label>
+                            <input type="email" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">Line</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                        <div class="modal-member_input lg">
+                            <label for="">聯絡手機</label>
+                            <input type="text" placeholder="請輸入">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-2 modal-member_checkbox">
+                            <input type="checkbox">
+                            <label for="">已閱讀 <a href="./term.html" target="_blank">相關條款</a> 同意註冊</label>
+                        </div>
+                        <button class="btn-common m-0">註冊</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+</body>
+</html>

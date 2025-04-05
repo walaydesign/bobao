@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博寶</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header_nav">
+            <ul>
+                <li>
+                    <a href="./index.html" class="active">
+                        回首頁
+                    </a>
+                </li>
+                <li>
+                    <a href="./news.html">
+                        最新消息
+                    </a>
+                </li>
+                <li>
+                    <a href="./buy.html">
+                        儲值方案
+                    </a>
+                </li>
+                <li>
+                    <a href="./flow.html">
+                        儲值說明
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        客服資訊
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="header_member login">
+            <button>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C9.23857 2 7 4.23858 7 7C7 9.76142 9.23857 12 12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99992 13C7.33717 13 5.73815 13.7585 4.80107 14.9004C4.32547 15.48 3.99113 16.1971 3.96202 16.9919C3.93229 17.8036 4.22528 18.5958 4.8295 19.2871C6.30206 20.9716 8.65319 22 11.9999 22C15.3466 22 17.6978 20.9716 19.1703 19.2871C19.7746 18.5958 20.0675 17.8036 20.0378 16.9919C20.0087 16.1971 19.6744 15.48 19.1988 14.9004C18.2617 13.7585 16.6627 13 14.9999 13H8.99992Z" fill="white"/>
+                </svg>
+                <ul>
+                    <li><a href="./record.html">點數/訂單查詢</a></li>
+                    <li><a href="">登出</a></li>
+                </ul>
+            </button>
+            <p class="header_member_name">大支您好！</p>
+        </nav>
+        <div class="header_menu d-lg-none">
+            <div class="header_menu_bar bar-top"></div>
+            <div class="header_menu_bar bar-middle"></div>
+            <div class="header_menu_bar bar-bottom"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner-member">
+            <h1>大支，您好！</h1>
+            <img class="banner-member_mask" src="./public/img/member-mask.png" alt="">
+        </div>
+
+        <div class="mainbar">
+            <div class="mainbar_sec record">
+                <div class="row">
+                    <div class="col-lg-2 col-6 d-lg-block d-none">
+                        <div class="record_item record_title">
+                            <p class="record_name">方案</p>
+                            <p class="record_remain">剩餘場次</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="record_item">
+                            <div class="record_name">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_11_954)">
+                                    <path d="M20.5657 13.1038C20.3719 12.3785 19.396 11.9765 19.0286 11.3415C18.6559 10.6972 18.7919 9.65263 18.269 9.12978C17.7462 8.60693 16.7016 8.74294 16.0573 8.3702C15.4222 8.00276 15.0204 7.02694 14.295 6.8331C13.581 6.64225 12.7004 7.28462 11.9999 7.28462C11.2996 7.28462 10.4189 6.64225 9.70494 6.8331C8.97958 7.02699 8.57764 8.00281 7.94255 8.37025C7.29831 8.74299 6.25373 8.60698 5.73088 9.12983C5.20803 9.65268 5.34404 10.6973 4.9713 11.3415C4.60386 11.9766 3.62804 12.3785 3.43419 13.1038C3.24682 13.8049 3.88571 14.6388 3.88571 15.3989C3.88571 16.159 3.24682 16.9929 3.43419 17.6939C3.62808 18.4193 4.60391 18.8212 4.97135 19.4563C5.34408 20.1005 5.20807 21.1451 5.73092 21.668C6.25378 22.1908 7.29836 22.0548 7.94259 22.4275C8.57769 22.795 8.97958 23.7708 9.70494 23.9646C10.4189 24.1555 11.2996 23.5131 11.9999 23.5131C12.7003 23.5131 13.581 24.1555 14.2949 23.9646C15.0203 23.7708 15.4222 22.7949 16.0573 22.4275C16.7016 22.0548 17.7462 22.1908 18.269 21.6679C18.7919 21.1451 18.6559 20.1005 19.0286 19.4562C19.396 18.8211 20.3719 18.4193 20.5657 17.6939C20.7531 16.9929 20.1142 16.159 20.1142 15.3988C20.1142 14.6388 20.7531 13.8049 20.5657 13.1038ZM12 21.9716C8.37579 21.9716 5.42727 19.0231 5.42727 15.3988C5.42727 11.7746 8.37579 8.82613 12 8.82613C15.6242 8.82613 18.5727 11.7746 18.5727 15.3988C18.5727 19.0231 15.6242 21.9716 12 21.9716Z" fill="white"/>
+                                    <path d="M9.34196 5.47476C10.3289 5.21099 11.0706 5.85973 11.9995 5.87861C12.5296 5.86797 13.1507 5.47668 13.6892 5.41299L11.5241 0H5.69891L8.16193 6.15752C8.46994 5.87093 8.85093 5.60599 9.34196 5.47476Z" fill="white"/>
+                                    <path d="M15.838 6.15752L18.3011 0H13.0383L15.3495 5.77808C15.5314 5.89183 15.6927 6.02226 15.838 6.15752Z" fill="white"/>
+                                    <path d="M12 10.2322C9.15109 10.2322 6.83331 12.55 6.83331 15.3989C6.83331 18.2478 9.15109 20.5656 12 20.5656C14.8489 20.5656 17.1667 18.2478 17.1667 15.3989C17.1667 12.55 14.8489 10.2322 12 10.2322ZM14.1705 16.8663C14.1705 18.0631 13.1969 19.0368 12 19.0368C10.8032 19.0368 9.82954 18.0631 9.82954 16.8663H11.2356C11.2356 17.2878 11.5784 17.6307 12 17.6307C12.4215 17.6307 12.7645 17.2878 12.7645 16.8663C12.7645 16.4448 12.4216 16.1019 12 16.1019H11.2694V14.6959H12C12.4215 14.6959 12.7645 14.3529 12.7645 13.9315C12.7645 13.5099 12.4216 13.167 12 13.167C11.5785 13.167 11.2356 13.5099 11.2356 13.9315H9.82954C9.82954 12.7347 10.8032 11.761 12 11.761C13.1969 11.761 14.1705 12.7347 14.1705 13.9315C14.1705 14.4968 13.953 15.0122 13.5976 15.3989C13.953 15.7855 14.1705 16.3009 14.1705 16.8663Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_11_954">
+                                    <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                                <span>銅牌大小分</span>
+                            </div>
+                            <div class="record_remain">
+                                <span class="record_remain_text">剩餘</span>
+                                <span class="record_remain_num">0</span>
+                                <span class="record_remain_text">場次</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="record_item">
+                            <div class="record_name">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_11_946)">
+                                    <path d="M20.5657 13.1038C20.3719 12.3785 19.396 11.9765 19.0286 11.3415C18.6559 10.6972 18.7919 9.65263 18.269 9.12978C17.7462 8.60693 16.7016 8.74294 16.0573 8.3702C15.4222 8.00276 15.0204 7.02694 14.295 6.8331C13.581 6.64225 12.7004 7.28462 11.9999 7.28462C11.2996 7.28462 10.4189 6.64225 9.70494 6.8331C8.97958 7.02699 8.57764 8.00281 7.94255 8.37025C7.29831 8.74299 6.25373 8.60698 5.73088 9.12983C5.20803 9.65268 5.34404 10.6973 4.9713 11.3415C4.60386 11.9766 3.62804 12.3785 3.43419 13.1038C3.24682 13.8049 3.88571 14.6388 3.88571 15.3989C3.88571 16.159 3.24682 16.9929 3.43419 17.6939C3.62808 18.4193 4.60391 18.8212 4.97135 19.4563C5.34408 20.1005 5.20807 21.1451 5.73092 21.668C6.25378 22.1908 7.29836 22.0548 7.94259 22.4275C8.57769 22.795 8.97958 23.7708 9.70494 23.9646C10.4189 24.1555 11.2996 23.5131 11.9999 23.5131C12.7003 23.5131 13.581 24.1555 14.2949 23.9646C15.0203 23.7708 15.4222 22.7949 16.0573 22.4275C16.7016 22.0548 17.7462 22.1908 18.269 21.6679C18.7919 21.1451 18.6559 20.1005 19.0286 19.4562C19.396 18.8211 20.3719 18.4193 20.5657 17.6939C20.7531 16.9929 20.1142 16.159 20.1142 15.3988C20.1142 14.6388 20.7531 13.8049 20.5657 13.1038ZM12 21.9716C8.37579 21.9716 5.42727 19.0231 5.42727 15.3988C5.42727 11.7746 8.37579 8.82613 12 8.82613C15.6242 8.82613 18.5727 11.7746 18.5727 15.3988C18.5727 19.0231 15.6242 21.9716 12 21.9716Z" fill="white"/>
+                                    <path d="M9.34196 5.47476C10.3289 5.21099 11.0706 5.85973 11.9995 5.87861C12.5296 5.86797 13.1507 5.47668 13.6892 5.41299L11.5241 0H5.69891L8.16193 6.15752C8.46994 5.87093 8.85093 5.60599 9.34196 5.47476Z" fill="white"/>
+                                    <path d="M15.838 6.15752L18.3011 0H13.0383L15.3495 5.77808C15.5314 5.89183 15.6927 6.02226 15.838 6.15752Z" fill="white"/>
+                                    <path d="M12 10.2322C9.15106 10.2322 6.83328 12.55 6.83328 15.3989C6.83328 18.2478 9.15106 20.5656 12 20.5656C14.8489 20.5656 17.1667 18.2478 17.1667 15.3989C17.1667 12.55 14.8489 10.2322 12 10.2322ZM14.1149 15.3878L12.2296 17.2106H14.1149V18.6166H9.8851V17.5217L12.7088 14.7915V13.6778C12.7088 13.2869 12.3909 12.9689 12 12.9689C11.6091 12.9689 11.2911 13.2869 11.2911 13.6778V15.0896H9.8851V13.6778C9.8851 12.5116 10.8338 11.5629 12 11.5629C13.1661 11.5629 14.1149 12.5116 14.1149 13.6778V15.3878Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_11_946">
+                                    <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                                <span>銀牌救紅</span>
+                            </div>
+                            <div class="record_remain">
+                                <span class="record_remain_text">剩餘</span>
+                                <span class="record_remain_num">0</span>
+                                <span class="record_remain_text">場次</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="record_item">
+                            <div class="record_name">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5 8.48998L19.5 2.58748C19.5658 2.47347 19.6005 2.34414 19.6005 2.21248C19.6005 2.08083 19.5658 1.9515 19.5 1.83748C19.43 1.73109 19.334 1.64428 19.2212 1.58523C19.1083 1.52618 18.9823 1.49685 18.855 1.49998H14.895C14.7565 1.5004 14.6208 1.53917 14.503 1.61198C14.3852 1.68479 14.2898 1.7888 14.2275 1.91248L12 6.29248L9.74999 1.91248C9.68944 1.79213 9.59759 1.69032 9.48409 1.61773C9.37059 1.54514 9.23964 1.50447 9.10499 1.49998H5.14499C5.01555 1.49923 4.88812 1.53199 4.77509 1.59507C4.66207 1.65816 4.56729 1.74942 4.49999 1.85998C4.43416 1.974 4.39951 2.10333 4.39951 2.23498C4.39951 2.36664 4.43416 2.49597 4.49999 2.60998L7.49999 8.51248C7.56334 8.63477 7.65914 8.73725 7.77688 8.80869C7.89462 8.88013 8.02977 8.91777 8.16749 8.91748H9.86249C9.75373 9.24916 9.69805 9.59593 9.69749 9.94498C9.69007 10.0849 9.69007 10.2251 9.69749 10.365C8.32221 10.9033 7.17812 11.905 6.46284 13.1972C5.74757 14.4893 5.50603 15.9906 5.77994 17.4419C6.05385 18.8931 6.82601 20.2032 7.96305 21.1457C9.10009 22.0882 10.5306 22.604 12.0075 22.604C13.4844 22.604 14.9149 22.0882 16.0519 21.1457C17.189 20.2032 17.9611 18.8931 18.235 17.4419C18.5089 15.9906 18.2674 14.4893 17.5521 13.1972C16.8369 11.905 15.6928 10.9033 14.3175 10.365C14.3377 10.2208 14.3503 10.0755 14.355 9.92998C14.3716 9.58168 14.3362 9.23285 14.25 8.89498H15.8925C16.0199 8.88482 16.1425 8.84228 16.2488 8.7714C16.3552 8.70052 16.4416 8.60365 16.5 8.48998ZM15.81 15.24L13.8975 17.1075L14.3475 19.7475L12 18.4875L9.62999 19.7325L10.08 17.0925L8.16749 15.225L10.815 14.8425L12 12.435L13.185 14.8425L15.81 15.24ZM12.8475 9.93748C12.8475 9.93748 12.8475 9.93748 12.8475 9.98998C12.5671 9.94393 12.284 9.91637 12 9.90748C11.7264 9.90827 11.4532 9.92832 11.1825 9.96748C11.179 9.95269 11.179 9.93728 11.1825 9.92248C11.1726 9.55363 11.2861 9.19204 11.505 8.89498H12.555C12.7712 9.19299 12.882 9.5545 12.87 9.92248L12.8475 9.93748Z" fill="white"/>
+                                </svg>
+                                <span>金牌連線</span>
+                            </div>
+                            <div class="record_remain">
+                                <span class="record_remain_text">剩餘</span>
+                                <span class="record_remain_num">0</span>
+                                <span class="record_remain_text">場次</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="record_item">
+                            <div class="record_name">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.7949 12.978L14.117 14.2845C12.6158 15.0126 11.4503 16.2937 10.8662 17.857L9.34806 21.8894C9.29444 22.0333 9.18156 22.1462 9.03766 22.2026C8.76111 22.3042 8.45071 22.166 8.3463 21.8894L6.83098 17.857C6.24403 16.2965 5.08143 15.0239 3.5802 14.2958L0.902276 12.9921C0.795045 12.9385 0.707568 12.851 0.653952 12.7438C0.524141 12.4757 0.637022 12.1569 0.902276 12.0271L3.5802 10.7234C5.08425 9.99531 6.24685 8.71421 6.83098 7.1509L8.34913 3.11851C8.40275 3.00842 8.49303 2.91813 8.60309 2.8645C8.87964 2.72906 9.21261 2.84197 9.35088 3.11851L10.869 7.14246C11.4503 8.70856 12.6158 9.98687 14.117 10.7177L16.7949 12.0186C16.9811 12.1089 17.0968 12.2979 17.0968 12.504C17.094 12.7071 16.9783 12.8905 16.7949 12.978Z" fill="white"/>
+                                    <path d="M23.2286 5.71803L22.2398 6.20048C21.7094 6.45768 21.2988 6.90819 21.0911 7.45932L20.532 8.94979C20.5001 9.03127 20.4362 9.09517 20.3547 9.12552C20.1981 9.18464 20.024 9.10637 19.9649 8.94979L19.4042 7.45932C19.1981 6.90819 18.7859 6.45768 18.2556 6.20048L17.2667 5.71803C17.206 5.68926 17.1565 5.63975 17.1277 5.57904C17.0542 5.42729 17.1165 5.24675 17.2667 5.17327L18.2556 4.69082C18.7859 4.43364 19.1981 3.98313 19.4042 3.43039L19.9649 1.9415C19.9953 1.87761 20.0464 1.82808 20.1087 1.79614C20.2652 1.71946 20.4537 1.78495 20.532 1.9415L21.0911 3.43039C21.2988 3.98313 21.7094 4.43364 22.2398 4.69082L23.2286 5.17327C23.2893 5.20203 23.3388 5.25154 23.3692 5.31227C23.4427 5.46243 23.3804 5.64455 23.2286 5.71803Z" fill="white"/>
+                                </svg>
+                                <span>鑽石協議</span>
+                            </div>
+                            <div class="record_remain">
+                                <span class="record_remain_text">剩餘</span>
+                                <span class="record_remain_num">0</span>
+                                <span class="record_remain_text">場次</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="record_item">
+                            <div class="record_name">
+                                <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.4074 13.4629H24.4607C23.9735 8.4862 20.0029 4.52528 15.037 4.0367V3.09258C15.037 2.51937 14.5727 2.05554 14 2.05554C13.4273 2.05554 12.9629 2.51937 12.9629 3.09258V4.03613C12.962 4.03619 12.961 4.03619 12.96 4.03625C7.99259 4.5237 4.02078 8.48518 3.53334 13.4629H2.59258C2.01988 13.4629 1.55554 13.9268 1.55554 14.5C1.55554 15.0732 2.01988 15.537 2.59258 15.537H3.53334C4.02078 20.5148 7.99259 24.4763 12.96 24.9637C12.961 24.9638 12.962 24.9638 12.9629 24.9638V25.9074C12.9629 26.4806 13.4273 26.9444 14 26.9444C14.5727 26.9444 15.037 26.4806 15.037 25.9074V24.9633C20.0029 24.4747 23.9735 20.5138 24.4607 15.537H25.4074C25.9801 15.537 26.4444 15.0732 26.4444 14.5C26.4444 13.9268 25.9801 13.4629 25.4074 13.4629ZM13.9971 20.8674C10.4919 20.8674 7.62965 18.0156 7.62965 14.5C7.62965 10.9844 10.4919 8.13256 13.9971 8.13256C17.5126 8.13256 20.3645 10.9844 20.3645 14.5C20.3645 18.0156 17.5126 20.8674 13.9971 20.8674Z" fill="white"/>
+                                    <path d="M15.3348 12.3845L13.3023 14.417L12.6592 13.7741C12.2549 13.3696 11.6015 13.3696 11.1971 13.7741C10.7926 14.1785 10.7926 14.8319 11.1971 15.2363L12.5763 16.6155C12.7734 16.8229 13.043 16.9163 13.3023 16.9163C13.5718 16.9163 13.8415 16.8229 14.0385 16.6155L16.8074 13.8467C17.2119 13.4422 17.2119 12.7889 16.8074 12.3845C16.403 11.98 15.7393 11.98 15.3348 12.3845Z" fill="white"/>
+                                </svg>
+                                <span>亞洲精選</span>
+                            </div>
+                            <div class="record_remain">
+                                <span class="record_remain_text">剩餘</span>
+                                <span class="record_remain_num">0</span>
+                                <span class="record_remain_text">場次</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mainbar_sec buy-record">
+                <h2>購買紀錄</h2>
+                <div>
+                    <div class="buy-record_item">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="buy-record_title d-flex align-items-center">
+                                <h3 class="title-name">鑽石協議</h3><p class="title-num">x1</p>
+                            </div>
+                            <p class="buy-record_price">$5000</p>
+                        </div>
+                        <div class="d-sm-flex align-items-center mb-3 gap-2">
+                            <p class="buy-record_way">全家繳費</p>
+                            <div class="buy-record_detail">
+                                <span class="detail-title">代碼</span>
+                                <span class="detail-content">5120C1811E2548</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p class="buy-record_time">2025-03-26 07:30:58</p>
+                            <div class="buy-record_status notpay">未繳費</div>
+                        </div>
+                    </div>
+                    <div class="buy-record_item">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="buy-record_title d-flex align-items-center">
+                                <h3 class="title-name">鑽石協議</h3><p class="title-num">x1</p>
+                            </div>
+                            <p class="buy-record_price">$5000</p>
+                        </div>
+                        <div class="d-sm-flex align-items-center mb-3 gap-2">
+                            <p class="buy-record_way">全家繳費</p>
+                            <div class="buy-record_detail">
+                                <span class="detail-title">代碼</span>
+                                <span class="detail-content">5120C1811E2548</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p class="buy-record_time">2025-03-26 07:30:58</p>
+                            <div class="buy-record_status paid">已繳費</div>
+                        </div>
+                    </div>
+                    <div class="buy-record_item">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="buy-record_title d-flex align-items-center">
+                                <h3 class="title-name">鑽石協議</h3><p class="title-num">x1</p>
+                            </div>
+                            <p class="buy-record_price">$5000</p>
+                        </div>
+                        <div class="d-sm-flex align-items-center mb-3 gap-2">
+                            <p class="buy-record_way">全家繳費</p>
+                            <div class="buy-record_detail">
+                                <span class="detail-title">代碼</span>
+                                <span class="detail-content">5120C1811E2548</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p class="buy-record_time">2025-03-26 07:30:58</p>
+                            <div class="buy-record_status notpay">未繳費</div>
+                        </div>
+                    </div>
+                    <div class="buy-record_item">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="buy-record_title d-flex align-items-center">
+                                <h3 class="title-name">鑽石協議</h3><p class="title-num">x1</p>
+                            </div>
+                            <p class="buy-record_price">$5000</p>
+                        </div>
+                        <div class="d-sm-flex align-items-center mb-3 gap-2">
+                            <p class="buy-record_way">全家繳費</p>
+                            <div class="buy-record_detail">
+                                <span class="detail-title">代碼</span>
+                                <span class="detail-content">5120C1811E2548</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p class="buy-record_time">2025-03-26 07:30:58</p>
+                            <div class="buy-record_status notpay">未繳費</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>
+            網站內容屬資訊性質，提供資料僅供瀏覽者作參考用途，切勿參與賭博觸犯法例，請勿以身試法。<br>
+            本站提供您的內容請勿任意轉載或複製。提醒您：進入本站、參與運動彩劵者需年滿20歲，未滿者不得加入行使任何會員之權利
+        </p>
+    </footer>
+    
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+</body>
+</html>
