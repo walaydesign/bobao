@@ -944,6 +944,25 @@ main {
                 }
             }
         }
+        &_pay {
+            &_item {
+                input {
+                    &::before {
+                        border: 1px solid $primary-200;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &_pay {
+            &_item {
+                margin-bottom: 5px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 }
 

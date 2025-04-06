@@ -1088,6 +1088,18 @@ main {
   .buy_title p::before {
     display: none;
   }
+  .buy_pay_item input::before {
+    border: 1px solid #81CBCF;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .buy_pay_item {
+    margin-bottom: 5px;
+  }
+  .buy_pay_item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .flow_store {
